@@ -1,0 +1,53 @@
+
+.profileScreen{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+.profile {
+    display: grid;
+    grid-template-columns: 100px 300px
+}
+.profileScreen_body {
+    color:aliceblue;
+    margin-left: 100px;
+}
+
+.profileScreen_body img {
+    height: 80px;
+    margin-left: 10px;
+}
+.profileScreen_body {
+    position: relative;
+    top: 50px;
+    width: 40%;
+    margin: auto;
+}
+
+.profile_details {
+    margin-top: 12px;
+}
+.profile_details h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile_details p {
+    width: 390px;
+    background-color: gray;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.profile_details button{
+    background-color: red;
+    border: none;
+    color: white;
+    outline-width: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    cursor: pointer;
+    font-size:25px;
+    font-weight: bold;
+}

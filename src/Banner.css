@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    height: 448px;
+    color: aliceblue;
+    margin-top: -80px;
+}
+
+.banner_content {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.banner_title {
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner_button button {
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    font-weight: bold;
+    background-color:dimgray;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.banner_button :hover {
+    background-color: white;
+    color: black;
+}
+.banner_description {
+    width: 35%;
+}
+

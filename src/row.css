@@ -1,0 +1,23 @@
+.row {
+    margin: 10px;
+    color: aliceblue;
+}
+.row-poster {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.row-posters {
+    height: 150px;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.row-posters :hover {
+    transform: scale(1.08);
+    opacity: 1;
+    transition: all 0.5s;
+}
